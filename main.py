@@ -79,6 +79,6 @@ while True:
         driver.quit()
 
     # Uyku süresi sabit: 60 saniye = 1 dakika
-    sleep_time = 60
+    sleep_time = 15
     print(f"Uyku süresi: {sleep_time // 60} dakika, {sleep_time % 60} saniye.")
     time.sleep(sleep_time)
